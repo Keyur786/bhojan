@@ -32,6 +32,8 @@ List<Widget>? _selectNavBar(context, screen) {
       return _buildNavBar(context);
     case '/wishlist':
       return _buildNavBar(context);
+    case '/order-confirmation':
+      return _buildNavBar(context);
 
     default:
       _buildNavBar(context);

@@ -1,4 +1,5 @@
 import 'package:bhojan/models/models.dart';
+import 'package:bhojan/screens/order_confirmation/order_confirmation_screen.dart';
 import 'package:bhojan/screens/screens.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,8 @@ class AppRouter {
 
       case CheckoutScreen.routeName:
         return CheckoutScreen.route();
-
+case OrderConfirmation.routeName:
+        return OrderConfirmation.route();
       case CatalogScreen.routeName:
         return CatalogScreen.route(category: settings.arguments as Category);
 
